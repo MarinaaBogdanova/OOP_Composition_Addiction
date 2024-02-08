@@ -13,6 +13,7 @@ public class MovieManagerTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void AddingNewFilms() {
         MovieManager manager = new MovieManager();
@@ -40,6 +41,7 @@ public class MovieManagerTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void ShowLastAddedFilmsInLimit() {
         MovieManager manager = new MovieManager();
@@ -55,6 +57,7 @@ public class MovieManagerTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void ShowLastAddedFilmsAboveLimit() {
         MovieManager manager = new MovieManager();
